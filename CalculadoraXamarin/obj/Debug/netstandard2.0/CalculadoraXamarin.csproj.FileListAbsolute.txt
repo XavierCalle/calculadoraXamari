@@ -1,0 +1,14 @@
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\CalculadoraXamarin.csprojAssemblyReference.cache
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\CalculadoraXamarin.AssemblyInfoInputs.cache
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\CalculadoraXamarin.AssemblyInfo.cs
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\CalculadoraXamarin.csproj.CoreCompileInputs.cache
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\CalculadoraXamarin.dll
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\ref\CalculadoraXamarin.dll
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\CalculadoraXamarin.pdb
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\bin\Debug\netstandard2.0\CalculadoraXamarin.deps.json
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\bin\Debug\netstandard2.0\CalculadoraXamarin.dll
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\bin\Debug\netstandard2.0\ref\CalculadoraXamarin.dll
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\bin\Debug\netstandard2.0\CalculadoraXamarin.pdb
+D:\ProyectosVS\CalculadoraXamarin\CalculadoraXamarin\obj\Debug\netstandard2.0\XamlC.stamp

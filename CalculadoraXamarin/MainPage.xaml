@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculadoraXamarin.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="black" Padding="10" CornerRadius="0">
+            <Label Text="Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+        
+        <Grid Margin="25">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition  Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" x:Name="resultText" Text="Resultado: " HorizontalTextAlignment="End" FontSize="25"/>
+            <Label Grid.Row="0" Grid.Column="1" x:Name="result" Text="" HorizontalTextAlignment="Center" FontSize="25"/>
+            
+            <Entry Grid.Row="1" Grid.Column="0" x:Name="number1" Keyboard="Numeric" Placeholder="Número 1" />
+            <Entry Grid.Row="1" Grid.Column="1" x:Name="number2" Keyboard="Numeric" Placeholder="Número 2" />
+
+        </Grid>
+
+        <Grid Margin="25">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button
+            Grid.Row="0" Grid.Column="0"
+            WidthRequest="350"
+            TextColor="black"
+            Text="Limpiar"
+            Clicked="clearButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+            
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition  Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button
+            Grid.Row="0" Grid.Column="0"
+            WidthRequest="150"
+            TextColor="black"
+            Text="Suma"
+            Clicked="sumaButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+
+            <Button
+            Grid.Row="0" Grid.Column="1"
+            WidthRequest="150"
+            TextColor="black"
+            Text="Resta"
+            Clicked="restaButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+
+            <Button
+            Grid.Row="1" Grid.Column="0"
+            WidthRequest="150"
+            TextColor="black"
+            Text="Multiplicación"
+            Clicked="multiplicacionButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+            
+            <Button
+            Grid.Row="1" Grid.Column="1"
+            WidthRequest="150"
+            TextColor="black"
+            Text="División"
+            Clicked="divisionButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+
+            <Button
+            Grid.Row="2" Grid.Column="0"
+            WidthRequest="150"
+            Text="Potencia"
+            TextColor="black"
+            Clicked="potenciaButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+
+            <Button
+            Grid.Row="2" Grid.Column="1"
+            WidthRequest="150"
+            Text="Raiz"
+            TextColor="black"
+            Clicked="raizButton"
+            Image="icon.png"
+            BackgroundColor="White"
+            BorderRadius="10"
+            BorderWidth="2"
+            BorderColor="Black"
+            HorizontalOptions="Center"/>
+
+        </Grid>
+
+        
+
+
+    </StackLayout>
+
+</ContentPage>

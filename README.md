@@ -1,6 +1,6 @@
 # Calculadora con Xamari
 ## _Integrantes: ✒️_ 
-```
+
 * Sebastián Morales
 * Xavier Calle
 
